@@ -56,12 +56,17 @@ document.addEventListener("DOMContentLoaded", function(){
         e.preventDefault();
     });
 
+    // menambahkan event oncopy
     document.getElementById('inputCopy').addEventListener('copy', function(){
         alert('Anda telah menCopy Sesuatu...');
     });
 
+    // menambahkan event onpaste
     document.getElementById('inputPaste').addEventListener('paste', function(){
         alert('Anda telah mem Paste sebuah Text...');
     });
+    
+console.log('hello world');
+    
 });
 
