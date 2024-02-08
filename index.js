@@ -60,6 +60,8 @@ document.addEventListener("DOMContentLoaded", function(){
         alert('Anda telah menCopy Sesuatu...');
     });
 
-    
+    document.getElementById('inputPaste').addEventListener('paste', function(){
+        alert('Anda telah mem Paste sebuah Text...');
+    });
 });
 
