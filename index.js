@@ -56,6 +56,10 @@ document.addEventListener("DOMContentLoaded", function(){
         e.preventDefault();
     });
 
+    document.getElementById('inputCopy').addEventListener('copy', function(){
+        alert('Anda telah menCopy Sesuatu...');
+    });
 
+    
 });
 
